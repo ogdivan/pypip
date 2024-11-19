@@ -12,7 +12,7 @@ def Analizar(respuesta):
     
 
     if (opcion not in opciones):
-        return 'Opción incorrecta'
+        return 'Digite bien'
     else:
         return Jugar(opcion)
     
