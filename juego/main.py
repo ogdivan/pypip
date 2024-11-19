@@ -36,4 +36,5 @@ def Ronda():
         opcion=input('Jugador (piedra,papel o tijera):')
         print(Analizar(opcion))
 
-Ronda()
+if __name__=="__main__":
+    Ronda()
